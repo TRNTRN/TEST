@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/public/javascripts/register.js"></script>
+</head>
+
+<body>
+<h2>Register</h2>
+<form action="/register" method="POST">
+  Username:<br>
+  <input type="text" name="username" id="username" placeholder="username">
+  <br>
+  Password:<br>
+  <input type="password" name="password" id="password" placeholder="password">
+  <br>
+  Email:<br>
+  <input type="email" name="email" id="email" placeholder="email">
+  <br>
+  <br>
+  <input type="submit" id="submit" value="Register">
+</form> 
+<br>
+<a href="/index">Back to Home</a>
+
+</body>
+</html>

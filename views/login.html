@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log in</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/public/javascripts/validate.js"></script>
+</head>
+
+<body>
+<h2>Log in</h2>
+<form action="/login" method="POST">
+  Username:<br>
+  <input type="text" name="username" id="username" placeholder="username">
+  <br>
+  Password:<br>
+  <input type="password" name="password" id="password" placeholder="password">
+  <br><br>
+  <input type="submit" id="submit" value="Log in">
+</form> 
+<br>
+<a href="/index">Back to Home</a>
+
+</body>
+</html>
